@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/Tes1/HomeStyle.css">
+    <style>
+        .nn{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hover:hover{
+          color: palevioletred;
+        }
+        a.hovers:hover{
+          color: palevioletred;
+          background-color: palevioletred;
+          border-radius: 10px;
+        }
+        .card-img-top{
+          width: 100%;
+          height: 200px;
+          
+        }
+        h5{
+          text-align: center;
+        }
+        .fa-star{
+          color: yellow;
+        }
+        .buy{
+          margin-left: 110px;
+        }
+
+        @media (min-width: 1400px) {
+  .col-xxl-2 {
+    flex: 0 0 auto;
+    width: 18%;
+    margin-right: 2.5%;
+  }
+
+  .col-xxl-2:last-child {
+    margin-right: 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container-fluid {
+    padding: 20px 120px;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
+
+  .fa-message {
+    font-size: 42px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-fluid {
+    padding: 15px 100px;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .fa-message {
+    font-size: 38px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-fluid {
+    padding: 10px 50px;
+  }
+
+  .nav-link {
+    font-size: 18px !important;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+
+  .fa-message {
+    font-size: 34px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container-fluid {
+    padding: 8px 30px;
+  }
+
+  .nav-link {
+    font-size: 16px !important;
+  }
+
+  .btn {
+    font-size: 12px;
+  }
+  .btn:hover{
+    color: aquamarine;
+  }
+
+  .fa-message {
+    font-size: 30px;
+  }
+}
+
+a {
+    text-decoration: none;
+  }
+
+  
+
+
+
+
+        
+    
+  </style>
+    </style>
+  </head>
+  <body>
+    <section  >
+      <nav class="navbar navbar-expand-lg navbar-light bg-light  nn" >
+        <div class="container-fluid "style="background-color: #454890;" >
+          <div class="d-flex justify-content-center ms-5 ">
+            <img
+              class="img-fluid rounded-pill"
+              style="max-width: 59px"
+              src="/img/logo.jpg"
+              alt=""
+            />
+          </div>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav justify-content-between">
+              <li class="nav-item">
+                <a class="hovers nav-link active text-white" aria-current="page" href="" style="font-size: 20px; ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="hovers nav-link active mx-5 text-white" aria-current="page" href="/Tes1/AboutPage.html"  style="font-size: 20px;"
+                  >About</a
+                >
+              </li>
+            </ul>
+            
+          </div>
+          <form class="d-flex justify-content-end " role="search" style="margin-right: 40px;">
+            <button class="hover btn me-auto" type="submit" style="background-color: #9747FF; ">loin</button>
+          </form>
+          <div class="d-flex justify-content-end " style="margin-right: 170px;font-size: 40px;">
+            <i class="hover fa-regular fa-message"></i>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+
+
+
+    <section>
+      <main>
+        <div class="container w-auto h-100  d-flex justify-content-between align-items-center">
+  <div class="title w-50   justify-content-start "style="padding: 0px 100px 100px 50px;">
+    <div class="title " style="font-size: 30px; margin: 50px; margin-right: 30px;">Upgrade Your Tech: Big Savings on Top-Rated Computers</div>
+    <div class="subtitle ms-5 ">Unlock the power of high-performance computing with our incredible  ecommerce sale on renowned computer brands. Whether you're in the market  for a lightning-fast gaming rig, a versatile 2-in-1 laptop, or a  reliable desktop for the home office, you'll find unbeatable deals that  won't last long.</div>
+  </div>
+
+  <div class="img-fluid w-50  d-flex justify-content-end me-5">
+    <div class="card" style="width: 20rem;">
+  <img src="/img/mouse1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    
+    <p class="card-text">Weve partnered with the American Cancer Society to make cancer  detection and management more convenient, more compassionate, and more</p>
+    
+  </div>
+</div>
+  </div>
+</div>
+      </main>
+    </section>
+
+
+    
+    
+
+
+    <section>
+  <main>
+    <div class="container my-5">
+      <div class="row justify-content-between">
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-sm-6 mb-4">
+          <div class="card h-100" style="border-radius: 10px;">
+            <img src="/img/mous2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Logitech MX Master 3S - Wireless Performance Mouse, Ergo, 8K DPI, Track</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-sm-6 mb-4">
+          <div class="card h-100" style="border-radius: 10px;">
+            <img src="/img/m3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Amazon Basics Full Size Ergonomic Wireless Mouse with Fast Scrolling, Compatible with PC, Mac, Laptop - Black</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-sm-6 mb-4">
+          <div class="card h-100" style="border-radius: 10px;">
+            <img src="/img/m4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">iClever Bluetooth Mouse, Wireless Dual Device Mouse with 5 Adjustable DPI, 6 Buttons, Rechargeable,</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-sm-6 mb-4">
+          <div class="card h-100" style="border-radius: 10px;">
+            <img src="/img/mous3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">Wireless Computer Bluetooth Mouse with Smart Flying Scroll, Thumb Scroll Ergonomic Mice, Silent 3 Devices</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-2 col-xl-2 col-lg-3 col-sm-6 mb-4">
+          <div class="card h-100" style="border-radius: 10px;">
+            <img src="/img/m6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">TECKNET Wireless Mouse, 2.4G Ergonomic Optical Mouse, Computer Mouse for Laptop, PC, Computer, Chromebook, Notebook, 6</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+    
+
+
+    
+    
+    
+    
+
+
+    
+    <section>
+  <main>
+    <h3 class="container">Headphones</h3>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/cas1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">LENOVO IdeaPad 1 Laptop, 15.6" FHD Display, Intel Celeron N4500 Processor,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$599</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF; "><a href="/Tes1/Detail/Card1.html">buy</a></button>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/c9.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>SRH240A</h5>
+              <p class="card-text">Lenovo V15 Gen 4 Business Laptop, 15.6" FHD Screen, AMD Ryzen 5 5500U,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$799</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card2.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/c7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo IdeaPad 15.6" FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$189</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card3.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/c5.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo 15.6" IdeaPad 3, FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$129</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card4.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+
+
+
+
+      <section>
+  <main>
+    <h3 class="container">KeyBoard</h3>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/k5.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">LENOVO IdeaPad 1 Laptop, 15.6" FHD Display, Intel Celeron N4500 Processor,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$599</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card5.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/k2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>SRH240A</h5>
+              <p class="card-text">Lenovo V15 Gen 4 Business Laptop, 15.6" FHD Screen, AMD Ryzen 5 5500U,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$799</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card6.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/k4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo IdeaPad 15.6" FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$189</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card7.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/k6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo 15.6" IdeaPad 3, FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$129</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card8.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+
+
+
+    <section>
+  <main>
+    <h3 class="container">Laptops</h3>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/mo6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">LENOVO IdeaPad 1 Laptop, 15.6" FHD Display, Intel Celeron N4500 Processor,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$599</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card9.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/mo8.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>SRH240A</h5>
+              <p class="card-text">Lenovo V15 Gen 4 Business Laptop, 15.6" FHD Screen, AMD Ryzen 5 5500U,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$799</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card10.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/mo10.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo IdeaPad 15.6" FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$189</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card11.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/m011.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo 15.6" IdeaPad 3, FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$129</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card12.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+
+
+
+
+  <section>
+  <main>
+    <h3 class="container">Laptops</h3>
+    <div class="container mb-5">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/lab1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">LENOVO IdeaPad 1 Laptop, 15.6" FHD Display, Intel Celeron N4500 Processor,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$599</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card13.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/lab2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>SRH240A</h5>
+              <p class="card-text">Lenovo V15 Gen 4 Business Laptop, 15.6" FHD Screen, AMD Ryzen 5 5500U,</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$799</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card14.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/lab4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo IdeaPad 15.6" FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$189</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card15.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/img/lab6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5>AONIC 50 GEN 2</h5>
+              <p class="card-text">Lenovo 15.6" IdeaPad 3, FHD Touchscreen Laptop, Intel Core i5-1235U 10-Core Processor (Beats i7-1195G7),</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+              <small class="text-body-secondary">$129</small>
+              <div>
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <button class="hover btn me-auto buy "  style="background-color: #9747FF;"><a href="/Tes1/Detail/Card16.html">buy</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</section>
+
+    
+
+
+
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <h5>About Us</h5>
+        <p>We are a leading provider of a lot of high-quality computer products. Our mission is to deliver the best computing solutions to our customers.</p>
+      </div>
+      <div class="col-12 col-md-3">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light">Shop Computers</a></li>
+          <li><a href="#" class="text-light">Accessories</a></li>
+          <li><a href="#" class="text-light">About Us</a></li>
+          <li><a href="#" class="text-light">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-3">
+        <h5>Contact Us</h5>
+        <ul class="list-unstyled">
+          <li><i class="fas fa-map-marker-alt me-2"></i>123 Main Street, Anytown USA</li>
+          <li><i class="fas fa-phone-alt me-2"></i>+1 (555) 123-4567</li>
+          <li><i class="fas fa-envelope me-2"></i>info@computerstore.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <p>&copy; 2024 Computer Store. All rights reserved.</p>
+        <p>Check out a lot of our <a href="#" class="text-light">latest products</a> and <a href="#" class="text-light">special offers</a>.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+</html>
